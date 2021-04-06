@@ -17,7 +17,10 @@
 .contentbar {
   width: 100%;
   flex: 2;
-  background-color: white; 
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bar1 {
@@ -33,3 +36,16 @@
   height: 80%;
   margin-left: 10px;
 }
+
+.textholder {
+  width: 80%;
+  height: 80%;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  position: relative;
+  top: 30px;
+
+}
+
